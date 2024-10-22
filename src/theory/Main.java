@@ -1,4 +1,4 @@
-package introduction;
+package theory;
 
 public class Main {
     //SINGLE LINE COMMENT

@@ -1,0 +1,33 @@
+Java operators
+An operator designates a mathematical operation or some other type of operation that can be performed on operands. Java has arithmetic operators, relational operators (also known as binary operators) and logical operators (also known as Boolean operators).
+
+Operator        Description
++               Addition
+–               Subtraction
+*               Multiplication
+/               Division
+%               Remainder
+++              Increment
+—               Decrement
++=              Addition and assignment
+-=              Subtraction and assignment
+*=              Multiplication and assignment
+/=              Division and assignment
+%=              Remainder and assignment
+
+
+Operator        Description
+==              Equal
+!=              Not equal
+<               Less than
+<=              Less than or equal to
+>               Greater than
+>=              Greater than or equal to
+
+Operator        Description
+!               Not
+&               And
+&&              Conditional and
+|               Or
+||              Conditional or
+^               xor

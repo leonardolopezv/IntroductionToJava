@@ -1,0 +1,27 @@
+Primitive data types
+Java data types are the kind of data you can store in a variable. Primitive data types are defined by the language itself. Java defines a total of eight primitive types. Of the eight primitive data types, six are for numbers, one is for characters, and one is for true/false values. Of the six number types, four are types of integers, and two are types of floating-point numbers.
+
+Type    Wrapper Class   Parse Method of Wrapper Class
+int     Integer            int parseInt(String s)
+short   Short              short parseShort(String s)
+long    Long</span>        long parseLong(String s)
+byte    Byte               byte parseByte(String s)
+float   Float              float parseFloat(String s)
+double  Double             double parseDouble(String s)
+char    Character          (none)
+boolean Boolean            boolean parseBoolean(String s)
+
+Math and NumberFormat classes
+Java classes lay the foundation for your programs. The Java Math and NumberFormat classes let you program number values, as well as format numbers and currencies.
+
+Method                      Description
+num abs(num y);             Absolute value of y (num can be any numeric data type)
+num max(num y, num z);      Maximum of y and z
+num min(num y, num z);      Minimum of y and z
+double = Math. random();    Random number, such that 0.0 < x <= 1.0
+
+Method                      Description
+NumberFormat
+getNumberInstance();        Gets an instance that formats numbers.
+NumberFormat                Gets an instance that formats currency.
+String format(x);           Formats the specified number.

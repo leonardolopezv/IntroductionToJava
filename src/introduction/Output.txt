@@ -1,0 +1,25 @@
+-Print Text
+Double Quotes
+Text must be wrapped inside double quotations marks "".
+
+If you forget the double quotes, an error occurs:
+
+Example
+System.out.println("This sentence will work!");
+System.out.println(This sentence will produce an error);
+
+-Print Numbers
+You can also use the println() method to print numbers.
+
+However, unlike text, we don't put numbers inside double quotes:
+
+Example
+System.out.println(3);
+System.out.println(358);
+System.out.println(50000);
+
+You can also perform mathematical calculations inside the println() method:
+
+Example
+System.out.println(3 + 3);
+System.out.println(2 * 5);

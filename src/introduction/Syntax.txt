@@ -1,0 +1,14 @@
+Note: Java is case-sensitive: "MyClass" and "myclass" has different meaning.
+The name of the java file must match the class name.
+
+-The main Method
+The main() method is required and you will see it in every Java program:
+public static void main(String[] args)
+
+-System.out.println()
+Inside the main() method, we can use the println() method to print a line of text to the screen:
+public static void main(String[] args) {
+  System.out.println("Hello World");
+}
+
+

@@ -1,0 +1,23 @@
+While loops are simplest kind of loop. It checks and evaluates the condition and if it is true then executes the body of loop. This is repeated until the condition becomes false. Condition in while loop must be given as a Boolean expression. If int or string is used instead, compile will give the error.
+
+Syntax:
+
+while (condition)
+{
+  statement1;
+}
+
+Example:
+
+class whileLoopTest
+{
+    public static void main(String args[])
+    {
+        int j = 1;
+        while (j <= 10)
+        {
+            System.out.println(j);
+            j = j+2;
+        }
+    }
+}

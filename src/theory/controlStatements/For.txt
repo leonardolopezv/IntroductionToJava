@@ -1,0 +1,27 @@
+It is the most common and widely used loop in Java. It is the easiest way to construct a loop structure in code as initialization of a variable, a condition and increment/decrement are declared only in a single line of code. It is easy to debug structure in Java.
+
+Syntax:
+
+for (initialization; condition; increment/decrement)
+{
+    statement;
+}
+
+Example:
+
+class forLoopTest
+{
+    public static void main(String args[])
+    {
+        for (int j = 1; j <= 5; j++)
+            System.out.println(j);
+    }
+}
+
+Output:
+
+1
+2
+3
+4
+5

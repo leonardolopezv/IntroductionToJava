@@ -1,0 +1,25 @@
+Do…while works same as while loop. It has only one difference that in do…while condition is checked after the execution of the loop body. That is why this loop is considered as exit control loop. In do…while loop, body of loop will be executed at least once before checking the condition
+
+Syntax:
+
+do{
+statement1;
+}while(condition);
+Example: here
+class dowhileLoopTest
+{
+    public static void main(String args[])
+    {
+        int j = 10;
+
+        do
+        {
+            System.out.println(j);
+            j = j+1;
+        } while (j <= 10)
+    }
+}
+
+Output:
+
+10

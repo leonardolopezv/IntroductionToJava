@@ -1,0 +1,19 @@
+For-Each loop is used to traverse through elements in an array. It is easier to use because we don’t have to increment the value. It returns the elements from the array or collection one by one.
+
+Example:
+
+class foreachDemo{
+ public static void main(String args[]){
+   int a[] = {10,15,20,25,30};
+    for (int i : a) {
+        System.out.println(i);
+    }
+ }
+
+Output:
+
+10
+15
+20
+25
+30

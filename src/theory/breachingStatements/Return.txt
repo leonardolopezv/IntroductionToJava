@@ -1,0 +1,15 @@
+The return statement is used to transfer the control back to the calling method. The compiler will always bypass any sentences after the return statement. So, it must be at the end of any method. They can also return a value to the calling method.
+
+Example: Here method getwebURL() returns the current URL to the caller method.
+
+public String getwebURL()
+{
+    String vURL= null;
+    try {
+        vURL= driver.getCurrentUrl();
+    }
+    catch(Exception e)  {
+        System.out.println("Exception occured while getting the current url : "+e.getStackTrace());
+    }
+    return vURL;
+}
